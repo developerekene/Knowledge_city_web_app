@@ -1,0 +1,29 @@
+.get_started_banner {
+  background-image: url(get_started_photo/get_started_banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.started_con h1 {
+  font-weight: bold;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 998px) {
+  .hide_on_998px {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 998px) {
+  .hide_on_above_998px {
+    display: none !important;
+  }
+}
+
+.last_txt {
+  font-family: var(--font1);
+}

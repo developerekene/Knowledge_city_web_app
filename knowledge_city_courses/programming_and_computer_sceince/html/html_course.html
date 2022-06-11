@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="theme-color" content="" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- favicon -->
+
+    <!-- link to css files -->
+    <link
+      rel="stylesheet"
+      href="../../../knowledge_city_dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../knowledge_city_dist/icon/css/all.css"
+    />
+    <link rel="stylesheet" href="../../../knowledge_city_dist/css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="../../../knowledge_city_dist/css/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../knowledge_city_dist/css/slick-theme.min.css"
+    />
+    <link rel="stylesheet" href="html_course_style.css" />
+    <link rel="stylesheet" href="../../../style.css" />
+
+    <link rel="canonical" href="" />
+    <title>knowledge City | Courses</title>
+    <style>
+      a:hover {
+        text-decoration: none;
+      }
+      .courses_text {
+        margin-left: 10px;
+      }
+      .course_btn {
+        text-align: center;
+        color: #fff;
+        width: 200px;
+        margin-top: 35px;
+        text-transform: uppercase;
+        font-weight: 500;
+        border: 2px solid #1976d2;
+        border-radius: 0;
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+        display: block;
+        background-color: #1976d2;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+        transition: all 0.5s ease-in-out;
+        overflow: hidden;
+      }
+      .course_btn:hover {
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- nav
+-->
+<nav class="navbar navbar-expand-lg navbar-light shadow-lg bg-light sticky-top">
+  <div class="container-fluid"> <a class="navbar-brand d-flex align-items-center logo" href="index.html">
+          <img src="../../../knowledge_city_dist/img/Logopit_1612880733521.png" alt="Logo">
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+          data-target="#navbar4">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar4">
+
+
+          <ul class="navbar-nav m-auto pl-lg-4">
+              <!--
+              <li class="nav-item px-lg-2 font-weight-normal"> <a class="nav-link" href="index.html"> <span
+                          class="d-inline-block d-lg-none icon-width"><i
+                              class="fas fa-question-circle"></i></span>Home</a>
+              </li>
+
+-->
+              <li class="nav-item px-lg-2"> <a class="nav-link font-weight-bold" href="get_started/get_started.html"><span
+                          class="d-inline-block d-lg-none icon-width"><i class="fas fa-check-circle"></i></span>Get
+                      Started</a> </li>
+              <li class="nav-item px-lg-2"> <a class="nav-link font-weight-bold" href="books/books.html"><span
+                          class="d-inline-block d-lg-none icon-width"><i class="fas fa-question-circle"></i></span>About US</a>
+              </li>
+              <li class="nav-item px-lg-2"> <a class="nav-link font-weight-bold" href="article/article.html"><span
+                          class="d-inline-block d-lg-none icon-width"><i
+                              class="fas fa-phone-volume"></i></span>Contact </a> </li>
+
+              <li class="nav-item px-lg-2 dropdown d-menu">
+                  <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="dropdown01" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false"><span
+                          class="d-inline-block d-lg-none icon-width"><i
+                              class="far fa-caret-square-down"></i></span>More
+                      <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                  </a>
+                  <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
+                      <a href="#" class="dropdown-item" style="padding: 10px;">Knowledge City for Partners</a>
+                      <a href="#" class="dropdown-item" style="padding: 10px;">Knowledge City for Trainers</a>
+                      <a href="#" class="dropdown-item" style="padding: 10px;">Knowledge City for Students</a>
+                      <a href="#" class="dropdown-item" style="padding: 10px;">Job Interviews made easy</a>
+                      <a href="#" class="dropdown-item" style="padding: 10px;">F.A.Q</a>
+                      <a href="#" class="dropdown-item" style="padding: 10px;">Idea Box</a>
+                      <a href="#" class="dropdown-item" style="padding: 10px;">Books</a>
+                      <a href="#" class="dropdown-item" style="padding: 10px;">Articles</a>
+                  </div>
+              </li>
+
+              <!-- <span class="hide-on-med-and-down"><br></span>
+              <div class="search-box ml-n2">
+                  <input type="text" class="search-input" placeholder="What do you want learn?">
+
+                  <button class="search-button">
+                      <i class="fas fa-search"></i>
+                  </button>
+              </div> -->
+          </ul>
+          <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
+              <span class="hide-on-med-and-down"><br></span>
+              <li class="nav-item"> <a class="nav-link" href="#">
+                      <i class="fab fa-twitter"></i><span class="d-lg-none ml-3">Twitter</span>
+                  </a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#">
+                      <i class="fab fa-facebook"></i><span class="d-lg-none ml-3">Facebook</span>
+                  </a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#">
+                      <i class="fab fa-instagram"></i><span class="d-lg-none ml-3">Instagram</span>
+                  </a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#">
+                      <i class="fab fa-linkedin"></i><span class="d-lg-none ml-3">Linkedin</span>
+                  </a> </li>
+              <!-- <li class="nav-item px-lg-2 dropdown d-menu">
+                  <a class="dropdown-toggle my-btn" style="box-shadow: none;color:white; border-radius: 2px;"
+                      href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false"><span class="d-inline-block d-lg-none icon-width"><i
+                              class="far fa-caret-square-down"></i></span>Courses
+                      <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                  </a>
+                  <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
+                      <a class="dropdown-item font-weight-bolder font-italic" href="#">View all courses</a>
+                      <a class="dropdown-item" href="#">Business</a>
+                      <a class="dropdown-item"
+                          href="computer_science_courses/welcome_computer_science_courses.html">Programming and
+                          Computer
+                          science</a>
+                      <a class="dropdown-item" href="#">Language</a>
+                      <a class="dropdown-item" href="#">Communication</a>
+                      <a class="dropdown-item" href="#">Learn digital</a>
+                      <a class="dropdown-item" href="#">Design</a>
+                      <a class="dropdown-item" href="#">Arts and humanity</a>
+                  </div>
+              </li>
+
+              <span class="hide-on-med-and-down"><br></span>
+              <li class="nav-item px-lg-2 font-weight-normal"> <a class="nav-link" href="#"> <span
+                          class="d-inline-block d-lg-none icon-width"><i
+                              class="fas fa-question-circle"></i></span>How to?</a>
+              </li>
+              <span class="hide-on-med-and-down"><br></span>
+              <li>
+                  <a href="#" class="my-btn ml-3" style="border-radius: 2px;box-shadow: none;">Books/Articles
+                  </a>
+              </li>
+              <span class="hide-on-med-and-down"><br></span>
+              <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span
+                          class="d-inline-block d-lg-none icon-width"><i
+                              class="fas fa-user-secret"></i></span>More</a> </li> -->
+
+          </ul>
+      </div>
+  </div>
+</nav>
+    <!-- banner -->
+    <div class="text-center text-white get_started_banner">
+      <div class="inner py-5">
+        <div class="container py-5">
+          <div class="row py-5">
+            <div class="text-left col-sm-12 col-lg-7 banner-txt-con">
+              <h1 class="mb-4" style="font-size: 35px">
+                Lorem ipsum dolor sit amet consectetur.
+              </h1>
+              <p class="mt-4" style="font-size: 15px">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                mollitia error facilis, numquam, neque dicta pariatur quos vero
+                in, modi commodi praesentium dolore corrupti? Quisquam, itaque.
+              </p>
+              <!--
+                <center> <div class="search-box ml-n1 mt-2"> <input
+                type="text" class="search-input" placeholder="What do you want
+                learn?">
+
+                                <button class="search-button"> <i class="fas
+fa-search"></i> </button> </div> </center> -->
+
+              <a href="#0" class="text4 mt-n1">Learn HTML</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- breadcrumb -->
+    <nav
+      aria-label="breadcrumb
+shadow bg-light"
+      style="max-width: 90%; justify-content: center; margin: -20px auto"
+    >
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="#" style="font-weight: bold">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="#" style="font-weight: bold">Courses</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="../../../courses.html#programming" style="font-weight: bold"
+            >Computer Science</a
+          >
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">HTML</li>
+      </ol>
+    </nav>
+    <!-- courses breakdown -->
+    <div class="container-fluid container-md">
+      <div
+        class="row justify-content-center mt-4 mt-sm-5"
+        style="border: 0.5px solid rgba(0, 0, 0, 0.2); border-radius: 3px"
+      >
+        <div class="col-sm-12 col-md-6 courses_breakdown p-4">
+          <h1 class="mb-3 text-uppercase">HTML Fundalmentals</h1>
+          <p class="font-weight-light">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
+            rerum nobis nulla quae placeat, quidem facere temporibus, quia
+            cumque consectetur sunt dolore? Veniam.
+          </p>
+          <div class="sponsors_con mt-n3 mb-n4">
+            <img src="course_photos\google.png" alt="" />
+            <img src="course_photos\jobberman.png" alt="" />
+            <img src="course_photos\microsoft.png" alt="" />
+          </div>
+          <a href="#0" class="course_btn">Start Course</a>
+        </div>
+
+        <div
+          class="
+            col-sm-12 col-md-6
+            courses_breakdown
+            p-4
+            text-right
+            justify-content-around
+          "
+        >
+          <div class="row">
+            <!-- <div class="col-5"></div> -->
+            <div class="col-7" style="float: inline-end">
+              <ul class="c-ul">
+                <li
+                  class="course-txt font-weight-bolder"
+                  style="text-transform: uppercase"
+                >
+                  Course Details
+                </li>
+                <li>
+                  <i class="fas fa-book-open"></i>
+                  <span class="courses_text">Module: 10</span>
+                </li>
+                <li>
+                  <i class="fas fa-hourglass-start"></i>
+                  <span class="courses_text">Hours: 3</span>
+                </li>
+                <li>
+                  <i class="fas fa-user-alt"></i
+                  ><span class="courses_text">Beginners</span>
+                </li>
+                <li>
+                  <i class="fas fa-comments-dollar"></i>
+                  <span class="courses_text">Free</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-5 m-1 course-list shadow">
+          <div class="card" style="border: none;">
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold" style="text-transform: uppercase;">Doctype</h5>
+              <ul class="course-info">
+                <li>
+                  <i class="fas fa-book-open"></i>
+                  <span class="courses_text m-0" style="color: grey;">Module: 10</span>
+                </li>
+                <li>
+                  <i class="fas fa-hourglass-start"></i>
+                  <span class="courses_text m-0" style="color: grey;">Hours: 3</span>
+                </li>
+                <li>
+                  <i class="fas fa-user"></i>
+                  <span class="courses_text m-0" style="color: grey;">Beginners</span>
+                </li>
+              </ul>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, nam suscipit?
+              </p>
+              <a href="" class="card-link float-right"><i class="fas fa-arrow-left"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-5 m-1 p-4 course-list bg-primary"></div>
+      </div>
+    </div>
+
+    <!-- footer
+-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-group__container">
+          <!--   <ul class="footer-group"> <li
+class="footer-group__header">Top Courses</li> <li
+class="footer-group__item"><a href="courses.html" style="color:#fff;"
+class="footer-group__link"> Business</a></li> <li
+class="footer-group__item"><a href="courses.html" style="color:#fff;"
+class="footer-group__link">Computer science</a></li> <li
+class="footer-group__item"><a href="courses.html" style="color:#fff;"
+class="footer-group__link">Language</a></li> <li class="footer-group__item"><a
+href="courses.html" style="color:#fff;" class="footer-group__link">Arts &
+Humanity</a></li> <li class="footer-group__item"><a href="courses.html"
+style="color:#fff;" class="footer-group__link">Communication</a></li> </ul>
+-->
+          <ul class="footer-group">
+            <li class="footer-group__header">About Knowledge City</li>
+            <li class="footer-group__item">
+              <a
+                href="aboutus.html"
+                style="color: #fff"
+                class="footer-group__link"
+                >About us</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a
+                href="aboutus.html"
+                style="color: #fff"
+                class="footer-group__link"
+                >Knowledge city for student</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a
+                href="aboutus.html"
+                style="color: #fff"
+                class="footer-group__link"
+                >Knowledge city for facilitators</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a
+                href="aboutus.html"
+                style="color: #fff"
+                class="footer-group__link"
+                >terms and conditions</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a
+                href="aboutus.html"
+                style="color: #fff"
+                class="footer-group__link"
+                >Contacts</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a
+                href="aboutus.html"
+                style="color: #fff"
+                class="footer-group__link"
+                >FAQ's</a
+              >
+            </li>
+          </ul>
+          <ul class="footer-group">
+            <li class="footer-group__header">
+              Become a part <br />of our Community
+            </li>
+            <li class="footer-group__item">
+              <a href="more.html" style="color: #fff" class="footer-group__link"
+                >Knowledge City Partners</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a href="more.html" style="color: #fff" class="footer-group__link"
+                >Knowledge City Facilitators</a
+              >
+            </li>
+
+            <li class="footer-group__item">
+              <a href="more.html" style="color: #fff" class="footer-group__link"
+                >Join us Today</a
+              >
+            </li>
+            <!-- <li
+class="footer-group__item text-white"><a href=""
+class="footer-group__link">Anikela brands</a></li> <li
+class="footer-group__item text-white"><a href=""
+class="footer-group__link">coupons</a></li> -->
+          </ul>
+          <ul class="footer-group">
+            <li class="footer-group__header">sign up to our newsletter</li>
+            <p
+              class="footer-group__lead text-white lead"
+              style="font-size: 16px"
+            >
+              Get the first looks at new drops, like courses, books, sales &
+              offers
+            </p>
+            <label for="subscribe" class="visually-hidden"
+              >Enter your email address</label
+            >
+            <input id="subscribe" type="text" class="footer-group__input" />
+            <button type="submit" class="text4">subscribe</button>
+          </ul>
+        </div>
+
+        <!--   going to put icons and stuff here maybe....   -->
+        <!--   
+<div class="footer-icons"> for maybe facebook and other social media icons
+</div> -->
+      </div>
+
+      <div class="footer-footnote">
+        <div class="footnote__copyright">
+          &copy; 2021 Knowledge City. All Rights Reserved.
+        </div>
+        <div class="footnote__items">
+          <span class="footnote__item"><a href="#0">Developers</a></span>
+          <span class="footnote__item"><a href="#0">Cookies settings</a></span>
+        </div>
+      </div>
+    </footer>
+    <script src="../../../knowledge_city_dist/js/jquery.min.js"></script>
+    <script src="../../../knowledge_city_dist/js/bootstrap.js"></script>
+    <script src="../../../knowledge_city_dist/js/bootstrap.bundle.js"></script>
+    <script src="../../../knowledge_city_dist/js/slick.min.js"></script>
+    <!-- <script
+src="../knowledge_city_dist/js/slick.min.js"></script> -->
+    <script src="html_course_script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Knowledge City | Articles</title>
+
+    <link rel="stylesheet" href="../knowledge_city_dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../knowledge_city_dist/icon/css/all.css" />
+    <link rel="stylesheet" href="../knowledge_city_dist/css/footer.css" />
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css" />
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/article.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      a:hover {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <!-- header -->
+      <div class="cover p-3" style="background-color: #1976d2">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="head-txt col-sm-12 col-md-4 text-center text-md-left">
+              <a href="#0" class="link"><i class="fas fa-phone-volume"></i> - +234-7068-815-984</a>&nbsp&nbsp <span
+                class="hide-on-med-and-down"><br /></span>
+              <a href="#0" class="link-light"><i class="far fa-envelope-open"></i> - hr@knowledgecity.com</a>
+            </div>
+            <div class="col-sm-12 col-md-4"></div>
+            <div class="head-txt col-sm-12 col-md-4 text-center text-md-right">
+              <a href="../get_started/get_started.html">Get Started</a> &nbsp;<span style="color: white">|</span>
+              &nbsp;
+              <a href="#0"><i class="fas fa-user-circle"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------------x----------- nav bar ----------x----------->
+      <nav
+        class="
+          navbar navbar-expand-lg navbar-light
+          shadow-lg
+          bg-light
+          sticky-top
+        "
+      >
+        <div class="container-fluid">
+          <a
+            class="navbar-brand d-flex align-items-center logo"
+            href="index.html"
+          >
+            <img
+              src="../knowledge_city_dist/img/Logopit_1612880733521.png"
+              alt="Logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler navbar-toggler-right border-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar4"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbar4">
+            <ul class="navbar-nav m-auto pl-lg-4">
+              <!--
+                    <li class="nav-item px-lg-2 font-weight-normal"> <a class="nav-link" href="index.html"> <span
+                                class="d-inline-block d-lg-none icon-width"><i
+                                    class="fas fa-question-circle"></i></span>Home</a>
+                    </li>
+
+-->
+              <li class="nav-item px-lg-2">
+                <a
+                  class="nav-link font-weight-bold"
+                  href="../get_started/get_started.html"
+                  ><span class="d-inline-block d-lg-none icon-width"
+                    ><i class="fas fa-check-circle"></i></span
+                  >Get Started</a
+                >
+              </li>
+              <li class="nav-item px-lg-2">
+                <a class="nav-link font-weight-bold" href="../about_us/about_us.html"
+                  ><span class="d-inline-block d-lg-none icon-width"
+                    ><i class="fas fa-question-circle"></i></span
+                  >About US</a
+                >
+              </li>
+              <li class="nav-item px-lg-2">
+                <a class="nav-link font-weight-bold" href="article/article.html"
+                  ><span class="d-inline-block d-lg-none icon-width"
+                    ><i class="fas fa-phone-volume"></i></span
+                  >Contact
+                </a>
+              </li>
+
+              <li class="nav-item px-lg-2 dropdown d-menu">
+                <a
+                  class="nav-link dropdown-toggle font-weight-bold"
+                  href="#"
+                  id="dropdown01"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  ><span class="d-inline-block d-lg-none icon-width"
+                    ><i class="far fa-caret-square-down"></i></span
+                  >More
+                  <svg
+                    id="arrow"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </a>
+                <div
+                  class="dropdown-menu shadow-sm sm-menu"
+                  aria-labelledby="dropdown01"
+                >
+                  <a href="#" class="dropdown-item" style="padding: 10px"
+                    >Knowledge City for Partners</a
+                  >
+                  <a href="#" class="dropdown-item" style="padding: 10px"
+                    >Knowledge City for Trainers</a
+                  >
+                  <a href="#" class="dropdown-item" style="padding: 10px"
+                    >Knowledge City for Students</a
+                  >
+                  <a href="#" class="dropdown-item" style="padding: 10px"
+                    >Job Interviews made easy</a
+                  >
+                  <a href="#" class="dropdown-item" style="padding: 10px"
+                    >F.A.Q</a
+                  >
+                  <a href="#" class="dropdown-item" style="padding: 10px"
+                    >Idea Box</a
+                  >
+                  <a href="../books/books.html" class="dropdown-item" style="padding: 10px"
+                    >Books</a
+                  >
+                  <a href="" class="dropdown-item" style="padding: 10px"
+                    >Articles</a
+                  >
+                </div>
+              </li>
+
+              <!-- <span class="hide-on-med-and-down"><br></span>
+                    <div class="search-box ml-n2">
+                        <input type="text" class="search-input" placeholder="What do you want learn?">
+
+                        <button class="search-button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div> -->
+            </ul>
+            <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
+              <span class="hide-on-med-and-down"><br /></span>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fab fa-twitter"></i
+                  ><span class="d-lg-none ml-3">Twitter</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fab fa-facebook"></i
+                  ><span class="d-lg-none ml-3">Facebook</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fab fa-instagram"></i
+                  ><span class="d-lg-none ml-3">Instagram</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fab fa-linkedin"></i
+                  ><span class="d-lg-none ml-3">Linkedin</span>
+                </a>
+              </li>
+              <!-- <li class="nav-item px-lg-2 dropdown d-menu">
+                        <a class="dropdown-toggle my-btn" style="box-shadow: none;color:white; border-radius: 2px;"
+                            href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"><span class="d-inline-block d-lg-none icon-width"><i
+                                    class="far fa-caret-square-down"></i></span>Courses
+                            <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </a>
+                        <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item font-weight-bolder font-italic" href="#">View all courses</a>
+                            <a class="dropdown-item" href="#">Business</a>
+                            <a class="dropdown-item"
+                                href="computer_science_courses/welcome_computer_science_courses.html">Programming and
+                                Computer
+                                science</a>
+                            <a class="dropdown-item" href="#">Language</a>
+                            <a class="dropdown-item" href="#">Communication</a>
+                            <a class="dropdown-item" href="#">Learn digital</a>
+                            <a class="dropdown-item" href="#">Design</a>
+                            <a class="dropdown-item" href="#">Arts and humanity</a>
+                        </div>
+                    </li>
+
+                    <span class="hide-on-med-and-down"><br></span>
+                    <li class="nav-item px-lg-2 font-weight-normal"> <a class="nav-link" href="#"> <span
+                                class="d-inline-block d-lg-none icon-width"><i
+                                    class="fas fa-question-circle"></i></span>How to?</a>
+                    </li>
+                    <span class="hide-on-med-and-down"><br></span>
+                    <li>
+                        <a href="#" class="my-btn ml-3" style="border-radius: 2px;box-shadow: none;">Books/Articles
+                        </a>
+                    </li>
+                    <span class="hide-on-med-and-down"><br></span>
+                    <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span
+                                class="d-inline-block d-lg-none icon-width"><i
+                                    class="fas fa-user-secret"></i></span>More</a> </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="text-center text-white article_banner">
+        <div class="inner py-5">
+          <div class="container py-5">
+            <div class="row py-5">
+              <div class="text-left col-sm-12 col-lg-7 banner-txt-con">
+                <h1 class="mb-4" style="font-size: 35px">
+                  Grow your audience right here on Knowledge City
+                </h1>
+                <p
+                  class="mt-4"
+                  style="font-size: 15px; font-size: bolder; color: #fff"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                  mollitia error facilis, numquam, neque dicta pariatur quos
+                  vero in, modi commodi praesentium dolore corrupti? Quisquam,
+                  itaque.
+                </p>
+                <!-- <center>
+                            <div class="search-box ml-n1 mt-2">
+                                <input type="text" class="search-input" placeholder="What do you want learn?">
+
+                                <button class="search-button">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </center> -->
+
+                <a
+                  href="#0"
+                  class="text4 mt-n1"
+                  data-toggle="modal"
+                  data-target="#staticBackdrop"
+                  >post an article</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="margin-top: -48px">
+        <div class="row bg-white">
+          <div class="col-lg-4 p-4">
+            <div class="d-flex align-items-start">
+              <div class="mr-4">
+                <div
+                  class="
+                    p-4
+                    rounded-circle
+                    text-white
+                    font-weight-bold
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                  style="height: 60px; width: 60px; background-color: #1976d2"
+                >
+                  1
+                </div>
+              </div>
+              <div class="">
+                <h5
+                  class="mb-2"
+                  style="font-weight: bold; text-transform: uppercase"
+                >
+                  Learn Online
+                </h5>
+                <p class="text-secondary">
+                  Join over 10,000 students online making use of our platform to
+                  increase their knowledge in different variety of subjects.
+                </p>
+                <a href="../courses.html" class="text-primary font-weight-bold"
+                  >PICK COURSE</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 p-4">
+            <div class="d-flex align-items-start">
+              <div class="mr-4">
+                <div
+                  class="
+                    p-4
+                    rounded-circle
+                    text-white
+                    font-weight-bold
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                  style="height: 60px; width: 60px; background-color: #1976d2"
+                >
+                  2
+                </div>
+              </div>
+              <div class="">
+                <h5
+                  class="mb-2"
+                  style="font-weight: bold; text-transform: uppercase"
+                >
+                  Online Test
+                </h5>
+                <p class="text-secondary">
+                  Begin your journey to becoming a professional in your field.
+                  Register a course today.
+                </p>
+                <a href="#0" class="font-weight-bold" style="color: #1976d2"
+                  >TAKE TEST</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 p-4">
+            <div class="d-flex align-items-start">
+              <div class="mr-4">
+                <div
+                  class="
+                    p-4
+                    rounded-circle
+                    text-white
+                    font-weight-bold
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                  style="height: 60px; width: 60px; background-color: #1976d2"
+                >
+                  3
+                </div>
+              </div>
+              <div class="">
+                <h5
+                  class="mb-2"
+                  style="font-weight: bold; text-transform: uppercase"
+                >
+                  Books
+                </h5>
+                <p class="text-secondary">
+                  With over 280+ certification to choose from, knowledge city
+                  gives you the platform to achieve your dreams.
+                </p>
+                <a href="../books/books.html" class="font-weight-bold" style="color: #1976d2"
+                  >CHECK BOOKS</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-backdrop="static"
+        data-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">
+                POST YOUR ARTICLE
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body p-5">
+              <form action="">
+                <textarea name="post_article" id="post_article"></textarea>
+              </form><h3>Add:</h3>
+              <div class="tag_con">
+                <ul>
+                  <li><a href="#"><i class="fas fa-image"></i></a></li>
+                  <li><a href="#"><i class="fas fa-user-tag"></i></a></li>
+                  <li><a href="#"><i class="fas fa-eye-slash"></i></a></li>
+                </ul>
+               <div class="tag_btn">
+                 <a href="#" class="button button-danger">Preview</a>
+                <a href="#" class="button button-primary">Post</a>
+               </div>
+              </div>
+            </div>
+            <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------- Site Content -------------------------->
+
+      <section class="container">
+        <span class="text-left" id="choose-us">
+          <h2
+            class="font-weight-bold mt-n4 text-uppercase"
+            style="color: #1976d2"
+          >
+            <span> Recents Articles </span>
+          </h2>
+          <div class="line"></div>
+        </span>
+        <div class="site-content">
+          <div class="posts">
+            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <img
+                    src="./assets/article-post/article1.png"
+                    class="img"
+                    alt="article1"
+                  />
+                </div>
+                <div class="post-info flex-row">
+                  <span
+                    ><i class="fas fa-user text-gray"></i
+                    >&nbsp;&nbsp;Admin</span
+                  >
+                  <span
+                    ><i class="fas fa-calendar-alt text-gray"></i
+                    >&nbsp;&nbsp;January 14, 2019</span
+                  >
+                  <span>2 Commets</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#"
+                  >Why should boys have all the fun? it's the women who are
+                  making india an alcohol-loving contry</a
+                >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                  voluptas deserunt beatae adipisci iusto totam placeat corrupti
+                  ipsum, tempora magnam incidunt aperiam tenetur a nobis,
+                  voluptate, numquam architecto fugit. Eligendi quidem ipsam
+                  ducimus minus magni illum similique veniam tempore unde?
+                </p>
+                <button class="text4">
+                  Read More &nbsp; <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <hr />
+            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <img
+                    src="./assets/article-post/article2.png"
+                    class="img"
+                    alt="article1"
+                  />
+                </div>
+                <div class="post-info flex-row">
+                  <span
+                    ><i class="fas fa-user text-gray"></i
+                    >&nbsp;&nbsp;Admin</span
+                  >
+                  <span
+                    ><i class="fas fa-calendar-alt text-gray"></i
+                    >&nbsp;&nbsp;January 16, 2019</span
+                  >
+                  <span>7 Commets</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#"
+                  >Why should boys have all the fun? it's the women who are
+                  making india an alcohol-loving contry</a
+                >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                  voluptas deserunt beatae adipisci iusto totam placeat corrupti
+                  ipsum, tempora magnam incidunt aperiam tenetur a nobis,
+                  voluptate, numquam architecto fugit. Eligendi quidem ipsam
+                  ducimus minus magni illum similique veniam tempore unde?
+                </p>
+                <button class="text4">
+                  Read More &nbsp; <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <hr />
+            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <img
+                    src="./assets/article-post/article3.png"
+                    class="img"
+                    alt="article1"
+                  />
+                </div>
+                <div class="post-info flex-row">
+                  <span
+                    ><i class="fas fa-user text-gray"></i
+                    >&nbsp;&nbsp;Admin</span
+                  >
+                  <span
+                    ><i class="fas fa-calendar-alt text-gray"></i
+                    >&nbsp;&nbsp;January 19, 2019</span
+                  >
+                  <span>5 Commets</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#"
+                  >New data recording system to better analyse road accidents</a
+                >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                  voluptas deserunt beatae adipisci iusto totam placeat corrupti
+                  ipsum, tempora magnam incidunt aperiam tenetur a nobis,
+                  voluptate, numquam architecto fugit. Eligendi quidem ipsam
+                  ducimus minus magni illum similique veniam tempore unde?
+                </p>
+                <button class="text4">
+                  Read More &nbsp; <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <hr />
+            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <img
+                    src="./assets/article-post/article4.png"
+                    class="img"
+                    alt="article1"
+                  />
+                </div>
+                <div class="post-info flex-row">
+                  <span
+                    ><i class="fas fa-user text-gray"></i
+                    >&nbsp;&nbsp;Admin</span
+                  >
+                  <span
+                    ><i class="fas fa-calendar-alt text-gray"></i
+                    >&nbsp;&nbsp;January 21, 2019</span
+                  >
+                  <span>12 Commets</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#"
+                  >New data recording system to better analyse road accidents</a
+                >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                  voluptas deserunt beatae adipisci iusto totam placeat corrupti
+                  ipsum, tempora magnam incidunt aperiam tenetur a nobis,
+                  voluptate, numquam architecto fugit. Eligendi quidem ipsam
+                  ducimus minus magni illum similique veniam tempore unde?
+                </p>
+                <button class="text4">
+                  Read More &nbsp; <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="pagination flex-row">
+              <a href="#"><i class="fas fa-chevron-left"></i></a>
+              <a href="#" class="pages">1</a>
+              <a href="#" class="pages">2</a>
+              <a href="#" class="pages">3</a>
+              <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+          <aside class="sidebar">
+            <div class="category">
+              <h2>Category</h2>
+              <ul class="category-list">
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="100"
+                >
+                  <a href="#">Software</a>
+                  <span>(05)</span>
+                </li>
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                >
+                  <a href="#">Techonlogy</a>
+                  <span>(02)</span>
+                </li>
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="300"
+                >
+                  <a href="#">Lifestyle</a>
+                  <span>(07)</span>
+                </li>
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="400"
+                >
+                  <a href="#">Shopping</a>
+                  <span>(01)</span>
+                </li>
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="500"
+                >
+                  <a href="#">Food</a>
+                  <span>(08)</span>
+                </li>
+              </ul>
+            </div>
+            <div class="popular-post">
+              <h2>Popular Article</h2>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/popular-post/m-article-1.jpg"
+                      class="img"
+                      alt="article1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                    <span
+                      ><i class="fas fa-calendar-alt text-gray"></i
+                      >&nbsp;&nbsp;January 14, 2019</span
+                    >
+                    <span>2 Commets</span>
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="#"
+                    >New data recording system to better analyse road
+                    accidents</a
+                  >
+                </div>
+              </div>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/popular-post/m-article-2.jpg"
+                      class="img"
+                      alt="article1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                    <span
+                      ><i class="fas fa-calendar-alt text-gray"></i
+                      >&nbsp;&nbsp;January 14, 2019</span
+                    >
+                    <span>2 Commets</span>
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="#"
+                    >New data recording system to better analyse road
+                    accidents</a
+                  >
+                </div>
+              </div>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/popular-post/m-article-3.jpg"
+                      class="img"
+                      alt="article1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                    <span
+                      ><i class="fas fa-calendar-alt text-gray"></i
+                      >&nbsp;&nbsp;January 14, 2019</span
+                    >
+                    <span>2 Commets</span>
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="#"
+                    >New data recording system to better analyse road
+                    accidents</a
+                  >
+                </div>
+              </div>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/popular-post/m-article-4.jpg"
+                      class="img"
+                      alt="article1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                    <span
+                      ><i class="fas fa-calendar-alt text-gray"></i
+                      >&nbsp;&nbsp;January 14, 2019</span
+                    >
+                    <span>2 Commets</span>
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="#"
+                    >New data recording system to better analyse road
+                    accidents</a
+                  >
+                </div>
+              </div>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/popular-post/m-article-5.jpg"
+                      class="img"
+                      alt="article1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                    <span
+                      ><i class="fas fa-calendar-alt text-gray"></i
+                      >&nbsp;&nbsp;January 14, 2019</span
+                    >
+                    <span>2 Commets</span>
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="#"
+                    >New data recording system to better analyse road
+                    accidents</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+              <h2>Newsletter</h2>
+              <div class="form-element">
+                <input type="text" class="input-element" placeholder="Email" />
+                <button class="btn form-btn">Subscribe</button>
+              </div>
+            </div> -->
+            <div class="popular-tags">
+              <h2>Popular Tags</h2>
+              <div class="tags flex-row">
+                <span class="tag" data-aos="flip-up" data-aos-delay="100"
+                  >Software</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="200"
+                  >technology</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="300"
+                  >travel</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="400"
+                  >illustration</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="500"
+                  >design</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="600"
+                  >lifestyle</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="700"
+                  >love</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="800"
+                  >project</span
+                >
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- -----------x---------- Site Content -------------x------------>
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-group__container">
+          <ul class="footer-group">
+            <li class="footer-group__header">Top Courses</li>
+            <li class="footer-group__item">
+              <a href="../courses.html" style="color: #fff" class="footer-group__link">
+                Business</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a href="../courses.html#programming" style="color: #fff" class="footer-group__link"
+                >Computer science</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a href="../courses.html" style="color: #fff" class="footer-group__link"
+                >Language</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a href="../courses.html" style="color: #fff" class="footer-group__link"
+                >Arts & Humanity</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a href="../courses.html" style="color: #fff" class="footer-group__link"
+                >Communication</a
+              >
+            </li>
+          </ul>
+          <ul class="footer-group">
+            <li class="footer-group__header">About Knowledge City</li>
+            <li class="footer-group__item">
+              <a href="../about_us/about_us.html" style="color: #fff" class="footer-group__link"
+                >About us</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a href="" style="color: #fff" class="footer-group__link"
+                >Knowledge city for student</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a href="" style="color: #fff" class="footer-group__link"
+                >Knowledge city for facilitators</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a href="" style="color: #fff" class="footer-group__link"
+                >terms and conditions</a
+              >
+            </li>
+            <li class="footer-group__item">
+              <a href="" style="color: #fff" class="footer-group__link"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        
+          <ul class="footer-group">
+            <li class="footer-group__header">sign up to our newsletter</li>
+            <p
+              class="footer-group__lead text-white lead"
+              style="font-size: 16px"
+            >
+              Get the first looks at new drops, like courses, books, sales &
+              offers
+            </p>
+            <label for="subscribe" class="visually-hidden"
+              >Enter your email address</label
+            >
+            <input id="subscribe" type="text" class="footer-group__input" />
+            <button type="submit" class="text4">subscribe</button>
+          </ul>
+        </div>
+
+        <!--   going to put icons and stuff here maybe....   -->
+        <!--    <div class="footer-icons">
+              for maybe facebook and other social media icons
+      </div> -->
+      </div>
+
+      <div class="footer-footnote">
+        <div class="footnote__copyright">
+          &copy; Copyright Knowledge City 2021
+        </div>
+        <div class="footnote__items">
+          <span class="footnote__item"><a href="#0">Developers</a></span>
+          <span class="footnote__item"><a href="#0">Cookies settings</a></span>
+        </div>
+      </div>
+    </footer>
+    <script src="../knowledge_city_dist/js/jquery.min.js"></script>
+    <script src="../knowledge_city_dist/js/bootstrap.js"></script>
+    <script src="../knowledge_city_dist/js/bootstrap.bundle.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+    <!-- <script src="knowledge_city_dist/js/script.js"></script> -->
+    <script>
+      $(document).ready(function () {
+        if ($(window).width() > 991) {
+          $(".navbar-light .d-menu").hover(
+            function () {
+              $(this).find(".sm-menu").first().stop(true, true).slideDown(150);
+            },
+            function () {
+              $(this)
+                .find(".sm-menu")
+                .first()
+                .stop(true, true)
+                .delay(120)
+                .slideUp(100);
+            }
+          );
+        }
+      });
+    </script>
+  </body>
+</html>

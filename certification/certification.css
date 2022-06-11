@@ -1,0 +1,34 @@
+
+.search-input {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 3px 0 0 3px;
+    border-right: none;
+    outline: none;
+    font-size: 16px;
+    color: #000;
+    background: #e3f2fd;
+}
+
+.cert_banner {
+    background-image: url(cert_img/cert_banner.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-img-top{
+    height: auto;
+}
+.cert_box h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cert_box p {
+    font-size: 14px;
+}
